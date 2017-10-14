@@ -4,7 +4,7 @@ package range
 import io.scalajs.collection.Iterator
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 import scala.scalajs.js.|
 
 /**
@@ -70,6 +70,6 @@ trait Range extends js.Object {
   * Range Options
   * @param exclusive indicates whether the range is exclusive
   */
-@ScalaJSDefined
+
 class RangeOptions(val exclusive: js.UndefOr[Boolean] = js.undefined,
                    val step: js.UndefOr[Int] = js.undefined) extends js.Object
